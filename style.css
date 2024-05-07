@@ -1,0 +1,41 @@
+:root{
+    --color1: #03aed2;
+    --colo2: #68d2e8;
+    --color3:#00215e;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.school{
+    background-image: url();
+
+    background-image: linear-gradient(#caf4ff6b,#5affd0b3),url(Images/DJI_0088-min.jpg) ;
+    background-size: cover;
+    background-position: center;
+    height:570px;
+    width: 100%;
+    border: 2px solid var(--color3);
+}
+
+.card > img{
+    /* border: 2px solid red; */
+    height: 230px;
+
+}
+.ins{
+    margin-left: 18px;
+}
+.likd{
+    margin-left: 22px;
+}
+.twi{
+    margin-left: 10px;
+    position: relative;
+    left: 5px;
+}
+
+.horizontal-line{
+border-bottom: 2px solid white;
+}
